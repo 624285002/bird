@@ -10,7 +10,7 @@ st.image('./pic/tub.jpg')
 
 html_8="""
 <div style="background-color:#66CCCC;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:Bisque">
-<center><h5>การทำนายโรคตับด้วยเทคนิคเหมืองข้อมูล</h5></center>
+<center><h5>การทำนายโรคตับ ด้วยเทคนิค KNN</h5></center>
 </div>
 """
 
@@ -39,7 +39,7 @@ else:
 
 html_8="""
 <div style="background-color:#66CCCC;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:Bisque">
-<center><h5>การทำนายข้อมูล</h5></center>
+<center><h5>ทำนายโรค</h5></center>
 </div>
 """
 st.markdown(html_8,unsafe_allow_html=True)
