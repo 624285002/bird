@@ -52,7 +52,6 @@ Edema=st.number_input("กรุณาเลือกข้อมูล Edema")
 
 
 if st.button("ทำนายผล"):
-     st.markdown("cirh_modal.sav")
      loaded_model = pickle.load(open('./data/cirhh_model.sav','rb'))
      input_data =  (Status,Hepatomegaly,Edema)
      # changing the input_data to numpy array
